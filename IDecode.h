@@ -1,0 +1,39 @@
+//
+// Created by he li on 16/6/19.
+//
+
+#ifndef XPLAY_IDECODE_H
+#define XPLAY_IDECODE_H
+
+#include "list"
+#include "mutex"
+#include "XParameter.h"
+#include "IObserver.h"
+
+class IDecode : public IObserver {
+public:
+    // 打开解码器
+    virtual bool open(XParameter parameter) = 0;
+    // future 模型，发送数据到线程解码
+    virtual bool sendPacket(XData pkt) = 0;
+    // 从线程中获取解码数据的接口 再次调用回复用上次空间，线程不安全
+    virtual XData receiveFrame() = 0;
+
+    // 主体调用观察者传递数据，阻塞
+    virtual void update(XData data);
+
+    bool isAudio = false;
+
+    // 最大的队列缓冲
+    int maxPackets = 100;
+
+protected:
+    virtual void main();
+
+    // 读取到的缓冲
+    std::list<XData> packets;
+    std::mutex packetMutex;
+};
+
+
+#endif //XPLAY_IDECODE_H
