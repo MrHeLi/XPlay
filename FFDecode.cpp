@@ -71,6 +71,8 @@ XData FFDecode::receiveFrame() {
     }
     XData data;
     data.data = (unsigned char *) frame;
+    data.width = frame->width;
+    data.height = frame->height;
     if (avCodecContext->codec_type == AVMEDIA_TYPE_VIDEO) {
         data.size = (frame->linesize[0] + frame->linesize[1] + frame->linesize[2]) * frame->height;
     } else if (avCodecContext->codec_type == AVMEDIA_TYPE_AUDIO) {

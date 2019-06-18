@@ -3,6 +3,8 @@
 #include "IDemux.h"
 #include "FFDemux.h"
 #include "FFDecode.h"
+#include "IVideoView.h"
+#include "SDLVideoView.h"
 
 using namespace std;
 
@@ -20,8 +22,11 @@ int main() {
     string source_url = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
     demux->open(source_url.c_str());
 
+    IVideoView *videoView = new SDLVideoView();
+
     IDecode *vDecode = new FFDecode();
     vDecode->open(demux->getVParameter());
+    vDecode->addObserver(videoView);
 
     IDecode *aDecode = new FFDecode();
     aDecode->open(demux->getAParameter());

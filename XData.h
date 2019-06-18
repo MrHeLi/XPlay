@@ -12,6 +12,8 @@ public:
     int size = 0;
     bool isAudio = false;
     void clear();
+    int width;
+    int height;
 };
 
 
