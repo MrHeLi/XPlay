@@ -5,6 +5,8 @@
 #include "FFDecode.h"
 #include "IVideoView.h"
 #include "SDLVideoView.h"
+#include "IResample.h"
+#include "FFResample.h"
 
 using namespace std;
 
@@ -30,6 +32,10 @@ int main() {
 
     IDecode *aDecode = new FFDecode();
     aDecode->open(demux->getAParameter());
+
+    IResample *resample = new FFResample();
+    resample->open(demux->getAParameter());
+    aDecode->addObserver(resample);
 
     demux->addObserver(vDecode);
     demux->addObserver(aDecode);

@@ -5,15 +5,21 @@
 #ifndef XPLAY_XDATA_H
 #define XPLAY_XDATA_H
 
+enum XDataType {
+    AVPACKET_TYPE = 0,
+    UCHAR_TYPE = 1
+};
 
 class XData {
 public:
+    int type = 0;
     unsigned char *data = 0;
     int size = 0;
     bool isAudio = false;
-    void clear();
     int width;
     int height;
+    bool alloc(int size, const unsigned char *data = 0);
+    void clear();
 };
 
 
