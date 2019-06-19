@@ -28,8 +28,9 @@ bool FFDemux::open(const char *url) {
     int result = avformat_open_input(&ic, url, nullptr, nullptr);
     if (result != 0) {
         XLog("avformat_open_input", "failed");
+        return false;
     }
-    XLog("avformat_open_input", "success");
+//    XLog("avformat_open_input", "success");
 
     result = avformat_find_stream_info(ic, nullptr);
     if (result != 0) {
@@ -83,7 +84,7 @@ XParameter FFDemux::getVParameter() {
     videoStreamId = streamId;
     XParameter parameter;
     parameter.codecParameters = ic->streams[streamId]->codecpar;
-    XLog("FFDemux::getVParameter success", "");
+//    XLog("FFDemux::getVParameter success", "");
     return parameter;
 }
 
@@ -102,6 +103,8 @@ XParameter FFDemux::getAParameter() {
     audioStreamId = streamId;
     XParameter parameter;
     parameter.codecParameters = ic->streams[streamId]->codecpar;
-    XLog("FFDemux::getVParameter success", "");
+    parameter.channels = ic->streams[streamId]->codecpar->channels;
+    parameter.sample_rate = ic->streams[streamId]->codecpar->sample_rate;
+//    XLog("FFDemux::getVParameter success", "");
     return parameter;
 }

@@ -41,7 +41,7 @@ void IDecode::main() { // 消费者
                 if (!frame.data) {
                     break;
                 }
-                XLog("receiveFrame size = ", frame.size);
+//                XLog("receiveFrame size = ", frame.size);
                 // 发送数据给观察者
                 this->notify(frame);
             }

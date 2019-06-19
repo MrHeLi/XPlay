@@ -16,7 +16,7 @@ bool FFResample::open(XParameter in, XParameter out) {
     aCtx = swr_alloc();
     aCtx = swr_alloc_set_opts(aCtx,
                               av_get_default_channel_layout(out.channels),
-                              AV_SAMPLE_FMT_S16, in.codecParameters->sample_rate,
+                              AV_SAMPLE_FMT_S16, out.sample_rate,
                               av_get_default_channel_layout(in.codecParameters->channels),
                               (AVSampleFormat) in.codecParameters->format, in.codecParameters->sample_rate,
                               0, 0);
@@ -24,7 +24,7 @@ bool FFResample::open(XParameter in, XParameter out) {
     if (result != 0) {
         XLog("FFResample", "swr_init failed!");
     }
-    XLog("FFResample", "swr_init success!");
+//    XLog("FFResample", "swr_init success!");
     outChannels = in.codecParameters->channels;
     outFormat = AV_SAMPLE_FMT_S16;
 }
@@ -49,6 +49,6 @@ XData FFResample::resample(XData inData) {
         outData.clear();
         return XData();
     }
-    XLog("FFResample len ", len);
+//    XLog("FFResample len ", len);
     return XData();
 }

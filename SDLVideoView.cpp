@@ -26,7 +26,7 @@ void SDLVideoView::render(XData data) {
 
     AVFrame *avFrame = (AVFrame *) data.data;
     // 像素格式刚好是YUV420P的，不用做像素格式转换
-    cout << "avFrame pts : " << avFrame->pts << " color format:" << avFrame->format << endl;
+//    cout << "avFrame pts : " << avFrame->pts << " color format:" << avFrame->format << endl;
     int result = SDL_UpdateYUVTexture((SDL_Texture *)mTexture, NULL, avFrame->data[0], avFrame->linesize[0],
                                   avFrame->data[1], avFrame->linesize[1], avFrame->data[2],
                                   avFrame->linesize[2]);
@@ -39,7 +39,7 @@ void SDLVideoView::initSDL(int width, int height) {
     this->mWidth = width;
     this->mHeight = height;
     // 1. 初始化sdl video 和 audio 组件
-    if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO) < 0) {
+    if (SDL_Init(SDL_INIT_VIDEO) < 0) {
         XLog("SDL_Init", "failed");
         return;
     }
@@ -50,7 +50,7 @@ void SDLVideoView::initSDL(int width, int height) {
         XLog("SDL_CreateWindow", "failed");
         return;
     }
-    XLog("SDL_CreateWindow", "success");
+//    XLog("SDL_CreateWindow", "success");
     //3. 根据窗体创建渲染器
     this->mRenderer = SDL_CreateRenderer((SDL_Window *) this->mWindow, -1, 0);
     //4. 创建纹理

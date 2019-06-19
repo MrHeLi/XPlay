@@ -7,6 +7,8 @@
 #include "SDLVideoView.h"
 #include "IResample.h"
 #include "FFResample.h"
+#include "IAudioPlay.h"
+#include "SDLAudioPlay.h"
 
 using namespace std;
 
@@ -34,8 +36,13 @@ int main() {
     aDecode->open(demux->getAParameter());
 
     IResample *resample = new FFResample();
-    resample->open(demux->getAParameter());
+    XParameter outParam = demux->getAParameter();
+    resample->open(demux->getAParameter(), outParam);
     aDecode->addObserver(resample);
+
+    IAudioPlay *audioPlay = new SDLAudioPlay();
+    audioPlay->startPlay(outParam);
+    resample->addObserver(audioPlay);
 
     demux->addObserver(vDecode);
     demux->addObserver(aDecode);

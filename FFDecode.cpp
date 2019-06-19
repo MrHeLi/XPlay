@@ -20,7 +20,7 @@ bool FFDecode::open(XParameter xParameter) {
         XLog("FFDecode::open", "avcodec_find_decoder failde");
         return false;
     }
-    XLog("FFDecode::open", "success");
+//    XLog("FFDecode::open", "success");
     // 2. 创建解码器上下文，并复制参数
     avCodecContext = avcodec_alloc_context3(codec);
     avcodec_parameters_to_context(avCodecContext, avCodecParameters);
@@ -32,7 +32,7 @@ bool FFDecode::open(XParameter xParameter) {
         XLog("FFDecode::open:avcodec_open2 failed:", av_err2str(result));
         return false;
     }
-    XLog("FFDecode::open:avcodec_open2 ", "success");
+//    XLog("FFDecode::open:avcodec_open2 ", "success");
     if (avCodecContext->codec_type == AVMEDIA_TYPE_VIDEO) {
         this->isAudio = false;
     } else {
