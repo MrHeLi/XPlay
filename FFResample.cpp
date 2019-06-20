@@ -50,5 +50,5 @@ XData FFResample::resample(XData inData) {
         return XData();
     }
 //    XLog("FFResample len ", len);
-    return XData();
+    return outData;
 }

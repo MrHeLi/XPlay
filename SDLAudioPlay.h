@@ -11,6 +11,9 @@
 class SDLAudioPlay : public IAudioPlay {
 public:
     virtual bool startPlay(XParameter out);
+//    void fill_audio(void *udata, uint8_t *stream, int len);
+protected:
+    void run();
 };
 
 
