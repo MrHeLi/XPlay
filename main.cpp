@@ -29,7 +29,7 @@ int main() {
     IVideoView *videoView = new SDLVideoView();
 
     IDecode *vDecode = new FFDecode();
-    vDecode->open(demux->getVParameter());
+    vDecode->open(demux->getVParameter(), true);
     vDecode->addObserver(videoView);
 
     IDecode *aDecode = new FFDecode();

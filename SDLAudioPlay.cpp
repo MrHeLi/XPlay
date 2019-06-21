@@ -13,21 +13,6 @@ extern "C" {
 
 static SDL_AudioDeviceID deviceID = 0;
 
-
-//void SDLAudioPlay::fill_audio(void *udata, Uint8 *stream, int len) {
-//    //SDL 2.0
-//    SDL_memset(stream, 0, len);
-////    if (audio_len == 0)
-////        return;
-////    len = (len > audio_len ? audio_len : len);
-//    XData data = getData();
-////    len = len >
-//    SDL_MixAudio(stream, data.data, data.size, SDL_MIX_MAXVOLUME);
-//    data.clear();
-////    audio_pos += len;
-////    audio_len -= len;
-//}
-
 bool SDLAudioPlay::startPlay(XParameter out) {
     // 1. 初始化sdl video 和 audio 组件
     if (SDL_Init(SDL_INIT_AUDIO) < 0) {
@@ -60,13 +45,12 @@ bool SDLAudioPlay::startPlay(XParameter out) {
 }
 
 void SDLAudioPlay::run() {
-    XLog("SDLAudioPlay", "run_begin");
+//    XLog("SDLAudioPlay", "run_begin");
     while (!isExit) {
         XData data = getData(); // 如果音频队列中没有数据，阻塞
         if (data.size <= 0) {
-            XLog("getData()", "size < 0");
+            XLog("getData() error", "size < 0");
         }
         SDL_QueueAudio(deviceID, data.data, data.size);
     }
-    XLog("SDLAudioPlay", "run_end");
 }

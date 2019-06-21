@@ -12,7 +12,7 @@ struct AVFrame;
 
 class FFDecode : public IDecode {
 public:
-    virtual bool open(XParameter xParameter);
+    virtual bool open(XParameter xParameter, bool isHard = false);
 
     // 发送数据到解码器解码
     virtual bool sendPacket(XData pkt);

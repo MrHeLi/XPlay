@@ -1,5 +1,5 @@
 //
-// Created by he li on 16/6/19.
+// Created by da li on 16/6/19.
 //
 
 #include <libavutil/frame.h>
@@ -9,10 +9,8 @@
 
 // 该接口用于传递系统窗口，以便渲染控件可以绑定该窗口，交给具体的渲染控件实现。
 // 主要用在在Android系统中。非安卓系统window参数可为NULL，该接口也可以做一些初始化操作
-void SDLVideoView::setRender(void *window) {
-//    this->mWidth = width;
-//    this->mHeight = height;
-//    initSDL();
+void SDLVideoView::setRender(void *window, TextureType textureType) {
+    type = textureType;
 }
 
 // 渲染控件核心渲染接口，子类实现
@@ -54,6 +52,7 @@ void SDLVideoView::initSDL(int width, int height) {
     //3. 根据窗体创建渲染器
     this->mRenderer = SDL_CreateRenderer((SDL_Window *) this->mWindow, -1, 0);
     //4. 创建纹理
-    this->mTexture = SDL_CreateTexture((SDL_Renderer *) this->mRenderer, SDL_PIXELFORMAT_IYUV,
+    this->mTexture = SDL_CreateTexture((SDL_Renderer *) this->mRenderer,
+                                       SDL_PIXELFORMAT_IYUV/*此处格式应该由解码后的数据调整，后序再改*/,
                                        SDL_TEXTUREACCESS_STREAMING, mWidth, mHeight);
 }

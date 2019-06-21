@@ -12,8 +12,8 @@
 
 class IDecode : public IObserver {
 public:
-    // 打开解码器
-    virtual bool open(XParameter parameter) = 0;
+    // 打开解码器 isHard表示是否使用硬解，默认不需要
+    virtual bool open(XParameter parameter, bool isHard = false) = 0;
     // future 模型，发送数据到线程解码
     virtual bool sendPacket(XData pkt) = 0;
     // 从线程中获取解码数据的接口 再次调用回复用上次空间，线程不安全

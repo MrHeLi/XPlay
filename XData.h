@@ -18,6 +18,7 @@ public:
     bool isAudio = false;
     int width;
     int height;
+    int format = 0;
     bool alloc(int size, const unsigned char *data = 0);
     void clear();
 };
