@@ -29,7 +29,12 @@ void IDecode::main() { // 消费者
 
         // 音视频同步判断
         if (!isAudio && syncPts > 0) {
-            XLog(syncPts, pts);
+//            XLog(syncPts, pts);
+            // 1. 目前还是没法实现同步，原因如下：
+            //    1）音频同步时间更新是在重采样后，加入到frameList缓冲的pts，即使从解码到播放，中间有三个缓冲减小速度，速度非常快。
+            //       最终使syncPts总是大于视频播放时间。无法启到显示视频速度的作用。
+            //    2）但音频实际播放速度远没有这么快。syncPts时间的更新最好是音频播放时更新。
+            //    解一：当前代码无法得知数据的播放时间，只能通过SDL的音频回调函数才能确定。但因为一个异常尚无法使用，解决这个异常即可。
             if (syncPts < pts) {
                 packetMutex.unlock();
                 xSleep(1);
@@ -52,8 +57,7 @@ void IDecode::main() { // 消费者
                 if (!frame.data) {
                     break;
                 }
-                pts = frame.pts;
-//                XLog("receiveFrame size = ", frame.size);
+                pts = frame.pts; // frame.pts 这里是解码后的pts
                 // 发送数据给观察者
                 this->notify(frame);
             }

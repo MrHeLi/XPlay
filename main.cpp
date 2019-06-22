@@ -3,7 +3,6 @@
 #include "IPlayerProxy.h"
 
 using namespace std;
-
 int main() {
     string source_url = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
     IPlayerProxy::get()->init();

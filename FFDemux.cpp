@@ -73,7 +73,7 @@ XData FFDemux::read() {
     }
     packet->pts = packet->pts * (1000 * r2d(ic->streams[packet->stream_index]->time_base));
     packet->dts = packet->dts * (1000 * r2d(ic->streams[packet->stream_index]->time_base));
-    data.pts = packet->pts;
+//    data.pts = packet->pts;
     return data;
 }
 
