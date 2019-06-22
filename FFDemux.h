@@ -1,5 +1,5 @@
 //
-// Created by he li on 12/6/19.
+// Created by da li on 12/6/19.
 //
 
 #ifndef XPLAY_FFDEMUX_H
@@ -15,6 +15,8 @@ public:
     // 打开文件，或者流媒体rtsp、http、rmtp
     virtual bool open(const char *url);
 
+    virtual void close();
+
     // 获取视频流的参数
     virtual XParameter getVParameter();
 
@@ -26,6 +28,7 @@ public:
 
 private:
     AVFormatContext *ic = 0;
+    std::mutex ffMutex;
     int audioStreamId = 1;
     int videoStreamId = 0;
 };
