@@ -1,61 +1,18 @@
 #include <iostream>
 #include <string>
-#include "IDemux.h"
-#include "FFDemux.h"
-#include "FFDecode.h"
-#include "IVideoView.h"
-#include "SDLVideoView.h"
-#include "IResample.h"
-#include "FFResample.h"
-#include "IAudioPlay.h"
-#include "SDLAudioPlay.h"
 #include "IPlayer.h"
+#include "FFPlayerBuilder.h"
 
 using namespace std;
 
+static IPlayer *player = 0;
+
 int main() {
-    IDemux *demux = new FFDemux();
     string source_url = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
-//    demux->open(source_url.c_str());
 
-    IVideoView *videoView = new SDLVideoView();
-
-    IDecode *vDecode = new FFDecode();
-//    vDecode->open(demux->getVParameter(), true);
-    vDecode->addObserver(videoView);
-
-    IDecode *aDecode = new FFDecode();
-//    aDecode->open(demux->getAParameter());
-
-    IResample *resample = new FFResample();
-//    XParameter outParam = demux->getAParameter();
-//    resample->open(demux->getAParameter(), outParam);
-    aDecode->addObserver(resample);
-
-    IAudioPlay *audioPlay = new SDLAudioPlay();
-//    audioPlay->startPlay(outParam);
-    resample->addObserver(audioPlay);
-
-    demux->addObserver(vDecode);
-    demux->addObserver(aDecode);
-
-    IPlayer::get()->demux = demux;
-    IPlayer::get()->videoDecode = vDecode;
-    IPlayer::get()->audioDecode = aDecode;
-    IPlayer::get()->videoView = videoView;
-    IPlayer::get()->resample = resample;
-    IPlayer::get()->audioPlay = audioPlay;
-    IPlayer::get()->open(source_url.c_str());
-    IPlayer::get()->start();
-
-//    demux->start();
-//    aDecode->start();
-//    vDecode->start();
-
+    player = FFPlayerBuilder::get()->buildPlayer();
+    player->open(source_url.c_str());
+    player->start();
 
     xSleep(300000);
-//    while (1) {
-//        XData data = demux->read();
-//        cout << "data size = " << data.size << endl;
-//    }
 }
