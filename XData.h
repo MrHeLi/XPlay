@@ -13,6 +13,7 @@ enum XDataType {
 class XData {
 public:
     int type = 0;
+    int pts = 0;
     unsigned char *data = 0;
     int size = 0;
     bool isAudio = false;

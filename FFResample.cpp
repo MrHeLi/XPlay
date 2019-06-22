@@ -50,6 +50,6 @@ XData FFResample::resample(XData inData) {
         outData.clear();
         return XData();
     }
-//    XLog("FFResample len ", len);
+    outData.pts = inData.pts;
     return outData;
 }

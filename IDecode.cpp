@@ -26,6 +26,17 @@ void IDecode::update(XData data) { // 生产者
 void IDecode::main() { // 消费者
     while(!isExit) {
         packetMutex.lock();
+
+        // 音视频同步判断
+        if (!isAudio && syncPts > 0) {
+            XLog(syncPts, pts);
+            if (syncPts < pts) {
+                packetMutex.unlock();
+                xSleep(1);
+                continue;
+            }
+        }
+
         if (packets.empty()) {
             packetMutex.unlock();
             xSleep(1);
@@ -41,6 +52,7 @@ void IDecode::main() { // 消费者
                 if (!frame.data) {
                     break;
                 }
+                pts = frame.pts;
 //                XLog("receiveFrame size = ", frame.size);
                 // 发送数据给观察者
                 this->notify(frame);

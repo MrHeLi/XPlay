@@ -20,6 +20,8 @@ public:
 
     int maxFrame = 100; // 默认最大缓冲
 
+    int pts = 0;
+
 protected:
     std::list<XData> frameList;
     std::mutex frameMutex; // 队列操作一定要互斥

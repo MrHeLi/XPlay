@@ -27,6 +27,10 @@ public:
     // 最大的队列缓冲
     int maxPackets = 100;
 
+    int syncPts = 0; // 同步时间，以音频为基准，再次打开数据要清理
+
+    int pts = 0; // 当前已经解码的pts
+
 protected:
     virtual void main();
 

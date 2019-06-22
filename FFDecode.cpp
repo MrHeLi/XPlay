@@ -90,5 +90,6 @@ XData FFDecode::receiveFrame() {
         data.size = 0; // 其它数据暂不处理，先设置一个0
     }
     data.format = frame->format;
+    data.pts = frame->pts;
     return data;
 }

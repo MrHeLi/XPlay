@@ -9,6 +9,11 @@ extern "C" {
 #include <libavformat/avformat.h>
 }
 
+// 分数转为浮点数
+static double r2d(AVRational r) {
+    return r.num == 0 || r.den == 0 ? 0. : (double)r.num/(double)r.den;
+}
+
 FFDemux::FFDemux() {
     static bool isFirst = true;
     if (isFirst) {
@@ -66,6 +71,9 @@ XData FFDemux::read() {
         av_packet_free(&packet);
         return XData();
     }
+    packet->pts = packet->pts * (1000 * r2d(ic->streams[packet->stream_index]->time_base));
+    packet->dts = packet->dts * (1000 * r2d(ic->streams[packet->stream_index]->time_base));
+    data.pts = packet->pts;
     return data;
 }
 
