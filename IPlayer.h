@@ -7,6 +7,7 @@
 
 
 #include "XThread.h"
+#include "XParameter.h"
 
 class IDemux;
 
@@ -27,6 +28,8 @@ public:
     virtual bool start();
 
     bool isHardDecode = false; // 用户设定是否使用硬解码，当前硬解尚未实现 
+
+    XParameter outParam; // 音频输出参数配置
 
     IDemux *demux = 0;
     IDecode *videoDecode = 0;

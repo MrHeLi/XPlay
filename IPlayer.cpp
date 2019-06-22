@@ -6,6 +6,7 @@
 #include "IDemux.h"
 #include "IDecode.h"
 #include "IResample.h"
+#include "IAudioPlay.h"
 #include "XLog.h"
 
 IPlayer *IPlayer::get(unsigned char index) {
@@ -18,27 +19,37 @@ bool IPlayer::open(const char *path) {
         XLog("demux open", "failed");
         return false;
     }
-    XLog("demux open", "success");
     // 解码，有可能不许需要，有的视频数据可能未经过编码
     if (!videoDecode || !videoDecode->open(demux->getVParameter()), false) {
         XLog("videoDecode open", "failed");
     }
-    XLog("videoDecode open", "success");
     // 解码，有可能不许需要，有的音频数据可能未经过编码
     if (!audioDecode || !audioDecode->open(demux->getAParameter())) {
         XLog("audioDecode open", "failed");
     }
-    XLog("audioDecode open", "success");
 
-    XParameter outParam = demux->getAParameter();
+    if (outParam.sample_rate <= 0) {
+        outParam = demux->getAParameter();
+    }
     // 解码，有可能不许需要，有的音频数据可能未经过编码
     if (!resample || !resample->open(demux->getAParameter(), outParam)) {
         XLog("resample open", "failed");
     }
-    XLog("resample open", "success");
     return true;
 }
 
 bool IPlayer::start() {
+    if (!demux || !demux->start()) {
+        XLog("demux start", "failed");
+    }
+    if (audioDecode) { // 这里有个解码器启动时序的问题，因为音频比较敏感，所以让音频先解码缓冲
+        audioDecode->start();
+    }
+    if (audioPlay) {
+        audioPlay->startPlay(outParam);
+    }
+    if (videoDecode) {
+        videoDecode->start();
+    }
     return true;
 }

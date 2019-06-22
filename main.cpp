@@ -46,6 +46,7 @@ int main() {
     IPlayer::get()->resample = resample;
     IPlayer::get()->audioPlay = audioPlay;
     IPlayer::get()->open(source_url.c_str());
+    IPlayer::get()->start();
 
 //    demux->start();
 //    aDecode->start();
