@@ -9,47 +9,47 @@
 #include "FFResample.h"
 #include "IAudioPlay.h"
 #include "SDLAudioPlay.h"
+#include "IPlayer.h"
 
 using namespace std;
 
-class TestObserver : public IObserver {
-public:
-    void update(XData data) {
-//        cout << "TestObserver receive data.size = " << data.size << endl;
-    }
-};
-
 int main() {
-    TestObserver *observer = new TestObserver();
     IDemux *demux = new FFDemux();
-//    demux->addObserver(observer);
     string source_url = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
-    demux->open(source_url.c_str());
+//    demux->open(source_url.c_str());
 
     IVideoView *videoView = new SDLVideoView();
 
     IDecode *vDecode = new FFDecode();
-    vDecode->open(demux->getVParameter(), true);
+//    vDecode->open(demux->getVParameter(), true);
     vDecode->addObserver(videoView);
 
     IDecode *aDecode = new FFDecode();
-    aDecode->open(demux->getAParameter());
+//    aDecode->open(demux->getAParameter());
 
     IResample *resample = new FFResample();
-    XParameter outParam = demux->getAParameter();
-    resample->open(demux->getAParameter(), outParam);
+//    XParameter outParam = demux->getAParameter();
+//    resample->open(demux->getAParameter(), outParam);
     aDecode->addObserver(resample);
 
     IAudioPlay *audioPlay = new SDLAudioPlay();
-    audioPlay->startPlay(outParam);
+//    audioPlay->startPlay(outParam);
     resample->addObserver(audioPlay);
 
     demux->addObserver(vDecode);
     demux->addObserver(aDecode);
 
-    demux->start();
-    aDecode->start();
-    vDecode->start();
+    IPlayer::get()->demux = demux;
+    IPlayer::get()->videoDecode = vDecode;
+    IPlayer::get()->audioDecode = aDecode;
+    IPlayer::get()->videoView = videoView;
+    IPlayer::get()->resample = resample;
+    IPlayer::get()->audioPlay = audioPlay;
+    IPlayer::get()->open(source_url.c_str());
+
+//    demux->start();
+//    aDecode->start();
+//    vDecode->start();
 
 
     xSleep(300000);

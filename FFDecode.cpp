@@ -23,7 +23,6 @@ bool FFDecode::open(XParameter xParameter, bool isHard) {
         codec = avcodec_find_decoder_by_name("h264_videotoolbox"); // TODO：暂未实现，可能平台没编译相关库
     }
     if (!codec) {
-        XLog("FFDecode::open failed. isHard", isHard);
         codec = avcodec_find_decoder(avCodecParameters->codec_id);
     }
     if (!codec) {

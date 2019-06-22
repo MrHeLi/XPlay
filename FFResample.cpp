@@ -27,6 +27,7 @@ bool FFResample::open(XParameter in, XParameter out) {
 //    XLog("FFResample", "swr_init success!");
     outChannels = in.codecParameters->channels;
     outFormat = AV_SAMPLE_FMT_S16;
+    return true;
 }
 
 XData FFResample::resample(XData inData) {
