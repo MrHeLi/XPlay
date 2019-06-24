@@ -7,6 +7,7 @@
 #include "IDecode.h"
 #include "IResample.h"
 #include "IAudioPlay.h"
+#include "IVideoView.h"
 #include "XLog.h"
 
 IPlayer *IPlayer::get(unsigned char index) {
@@ -30,7 +31,55 @@ void IPlayer::main() {
     }
 }
 
+void IPlayer::close() {
+    playerMutex.lock();
+    // 先关闭主体线程，再清理观察者
+    // 同步线程
+    XThread::stop();
+    // 解封装线程清理
+    if (demux) {
+        demux->stop();
+    }
+    // 解码线程
+    if (audioDecode) {
+        audioDecode->stop();
+    }
+    if (videoDecode) {
+        videoDecode->stop();
+    }
+    // 音频线程
+
+    // 清理缓冲队列
+    if (audioDecode) {
+        audioDecode->clear();
+    }
+    if (videoDecode) {
+        videoDecode->clear();
+    }
+    if (audioPlay) {
+        audioPlay->clear();
+    }
+    // 清理资源
+    if (audioPlay) {
+        audioPlay->close();
+    }
+    if (videoView) {
+        videoView->close();
+    }
+    if (audioDecode) {
+        audioDecode->close();
+    }
+    if (videoDecode) {
+        videoDecode->close();
+    }
+    if (demux) {
+        demux->close();
+    }
+    playerMutex.unlock();
+}
+
 bool IPlayer::open(const char *path) {
+    close();
     playerMutex.lock();
     if (!demux || !demux->open(path)) { // 打开解封装
         XLog("demux open", "failed");
@@ -59,21 +108,23 @@ bool IPlayer::open(const char *path) {
 
 bool IPlayer::start() {
     playerMutex.lock();
+
+    if (videoDecode) {
+        videoDecode->start();
+    }
+    if (audioPlay) {
+        audioPlay->startPlay(outParam);
+    }
+    if (audioDecode) { // 这里有个解码器启动时序的问题，因为音频比较敏感，所以让音频先解码缓冲
+        audioDecode->start();
+    }
     if (!demux || !demux->start()) {
         XLog("demux start", "failed");
         playerMutex.unlock();
         return false;
     }
-    if (audioDecode) { // 这里有个解码器启动时序的问题，因为音频比较敏感，所以让音频先解码缓冲
-        audioDecode->start();
-    }
-    if (audioPlay) {
-        audioPlay->startPlay(outParam);
-    }
-    if (videoDecode) {
-        videoDecode->start();
-    }
     XThread::start();
+
     playerMutex.unlock();
     return true;
 }

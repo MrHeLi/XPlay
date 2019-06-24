@@ -15,10 +15,24 @@ extern "C" {
 
 static SDL_AudioDeviceID deviceID = 0;
 
+void SDLAudioPlay::close() {
+    IAudioPlay::clear();
+    audioMutex.lock();
+    if (deviceID) {
+        SDL_CloseAudioDevice(deviceID);
+        deviceID = 0;
+        SDL_Quit();
+    }
+    audioMutex.unlock();
+}
+
 bool SDLAudioPlay::startPlay(XParameter out) {
+    close();
+    audioMutex.lock();
     // 1. 初始化sdl video 和 audio 组件
     if (SDL_Init(SDL_INIT_AUDIO) < 0) {
         XLog("SDL_Init with error", SDL_GetError());
+        audioMutex.unlock();
         return false;
     }
     SDL_AudioSpec desired_spec;
@@ -31,9 +45,11 @@ bool SDLAudioPlay::startPlay(XParameter out) {
     desired_spec.callback = NULL;
     if ((deviceID = SDL_OpenAudioDevice(NULL, 0, &desired_spec, NULL, SDL_AUDIO_ALLOW_ANY_CHANGE)) < 2) {
         XLog("SDL_OpenAudioDevice with error deviceID", SDL_GetError());
+        audioMutex.unlock();
         return false;
     }
     SDL_PauseAudioDevice(deviceID, 0);
+    audioMutex.unlock();
     // 开一个线程，专门往音频设备写数据
     thread th1(&SDLAudioPlay::run, this);
     th1.detach();
@@ -64,7 +80,8 @@ void SDLAudioPlay::run() {
         if (data.size <= 0) {
             XLog("getData() error", "size < 0");
         }
-
+        audioMutex.lock();
         SDL_QueueAudio(deviceID, data.data, data.size);
+        audioMutex.unlock();
     }
 }

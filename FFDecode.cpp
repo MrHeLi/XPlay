@@ -1,5 +1,5 @@
 //
-// Created by he li on 16/6/19.
+// Created by da li on 16/6/19.
 //
 
 extern "C" {
@@ -9,7 +9,21 @@ extern "C" {
 #include "FFDecode.h"
 #include "XLog.h"
 
+void FFDecode::close() {
+    IDecode::clear();
+    decodeMutex.lock();
+    if (frame) {
+        av_frame_free(&frame);
+    }
+    if (avCodecContext) {
+        avcodec_close(avCodecContext);
+        avcodec_free_context(&avCodecContext);
+    }
+    decodeMutex.unlock();
+}
+
 bool FFDecode::open(XParameter xParameter, bool isHard) {
+    close();
     if (!xParameter.codecParameters) {
         return false;
     }
@@ -30,13 +44,15 @@ bool FFDecode::open(XParameter xParameter, bool isHard) {
         return false;
     }
     // 2. 创建解码器上下文，并复制参数
+    decodeMutex.lock();
     avCodecContext = avcodec_alloc_context3(codec);
     avcodec_parameters_to_context(avCodecContext, avCodecParameters);
-    avCodecContext->thread_count = 8;
+    avCodecContext->thread_count = 2;
 
     // 3. 打开解码器
     int result = avcodec_open2(avCodecContext, codec, 0);
     if (result != 0) {
+        decodeMutex.unlock();
         XLog("FFDecode::open:avcodec_open2 failed:", av_err2str(result));
         return false;
     }
@@ -46,6 +62,7 @@ bool FFDecode::open(XParameter xParameter, bool isHard) {
     } else {
         this->isAudio = true;
     }
+    decodeMutex.unlock();
     return true;
 }
 
@@ -53,11 +70,14 @@ bool FFDecode::sendPacket(XData pkt) {
     if (pkt.size <= 0 || !pkt.data) {
         return false;
     }
+    decodeMutex.lock();
     if (!avCodecContext) {
+        decodeMutex.unlock();
         return false;
     }
 
     int result = avcodec_send_packet(avCodecContext, (AVPacket *) (pkt.data));
+    decodeMutex.unlock();
     if (result != 0) {
         return false;
     }
@@ -66,7 +86,9 @@ bool FFDecode::sendPacket(XData pkt) {
 
 // 从线程中获取解码数据的接口
 XData FFDecode::receiveFrame() {
+    decodeMutex.lock();
     if (!avCodecContext) {
+        decodeMutex.unlock();
         return XData();
     }
 
@@ -75,6 +97,7 @@ XData FFDecode::receiveFrame() {
     }
     int result = avcodec_receive_frame(avCodecContext, frame);
     if (result != 0) {
+        decodeMutex.unlock();
         return XData();
     }
     XData data;
@@ -91,5 +114,6 @@ XData FFDecode::receiveFrame() {
     }
     data.format = frame->format;
     data.pts = frame->pts;
+    decodeMutex.unlock();
     return data;
 }

@@ -21,6 +21,8 @@ public:
     // 主要用在在Android系统中。非安卓系统window参数可为NULL，type 为yuv格式
     virtual void setRender(void *window, TextureType type) = 0;
 
+    virtual void close() = 0;
+
     // 渲染控件核心渲染接口，子类实现
     virtual void render(XData data) = 0;
 

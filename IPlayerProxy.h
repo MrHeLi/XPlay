@@ -19,6 +19,8 @@ public:
 
     virtual bool open(const char *path);
 
+    virtual void close();
+
     virtual bool start();
 
 protected:

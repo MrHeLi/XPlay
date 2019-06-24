@@ -66,3 +66,14 @@ void IDecode::main() { // 消费者
         packetMutex.unlock();
     }
 }
+
+void IDecode::clear() {
+    packetMutex.lock();
+    while (!packets.empty()) {
+        packets.front().clear();
+        packets.pop_front();
+    }
+    pts = 0;
+    syncPts = 0;
+    packetMutex.unlock();
+}

@@ -26,6 +26,8 @@ public:
 
     virtual bool open(const char *path);
 
+    virtual void close();
+
     virtual bool start();
 
     bool isHardDecode = false; // 用户设定是否使用硬解码，当前硬解尚未实现 

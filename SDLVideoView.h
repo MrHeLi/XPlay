@@ -13,6 +13,8 @@ public:
     // 主要用在在Android系统中。非安卓系统window参数可为NULL，
     virtual void setRender(void *window, TextureType textureType);
 
+    virtual void close();
+
     // 渲染控件核心渲染接口，子类实现
     virtual void render(XData data);
 
@@ -30,6 +32,8 @@ public:
 
 private:
     void initSDL(int width, int height);
+
+    std::mutex videoMutex;
 };
 
 

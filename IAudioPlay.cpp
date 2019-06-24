@@ -37,3 +37,12 @@ void IAudioPlay::update(XData data) {
         break;
     }
 }
+
+void IAudioPlay::clear() {
+    frameMutex.lock();
+    while (!frameList.empty()) {
+        frameList.front().clear();
+        frameList.pop_front();
+    }
+    frameMutex.unlock();
+}
