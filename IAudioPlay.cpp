@@ -7,6 +7,7 @@
 
 XData IAudioPlay::getData() {
     XData data;
+    isRunning = true;
     while (!isExit) {
         frameMutex.lock();
         if (!frameList.empty()) { // 有数据返回
@@ -19,6 +20,7 @@ XData IAudioPlay::getData() {
         frameMutex.unlock();
         xSleep(1);
     }
+    isRunning = false;
     // 没有数据
     return data;
 }
