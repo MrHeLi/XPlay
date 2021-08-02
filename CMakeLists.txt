@@ -3,8 +3,8 @@ project(XPlay)
 set(CMAKE_CXX_STANDARD 11)
 
 set(MY_LIBRARY_DIR /usr/local/Cellar)
-set(FFMPEG_DIR ${MY_LIBRARY_DIR}/ffmpeg/4.1.3_1) # FFmpeg的安装目录，可以通过命令"brew info ffmpeg"获取
-set(SDL_DIR ${MY_LIBRARY_DIR}/sdl2/2.0.9_1/)
+set(FFMPEG_DIR ${MY_LIBRARY_DIR}/ffmpeg/4.2.2_2) # FFmpeg的安装目录，可以通过命令"brew info ffmpeg"获取
+set(SDL_DIR ${MY_LIBRARY_DIR}/sdl2/2.0.12_1/)
 
 include_directories(${FFMPEG_DIR}/include/
         ${SDL_DIR}/include/) # 头文件搜索路径

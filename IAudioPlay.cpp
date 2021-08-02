@@ -26,7 +26,7 @@ XData IAudioPlay::getData() {
 }
 
 void IAudioPlay::update(XData data) {
-    // 压如缓冲队列
+    // 压入缓冲队列
 //    XLog("IAudioPlay::update", data.size);
     frameMutex.lock();
     while (data.size > 0) {

@@ -71,7 +71,7 @@ void SDLVideoView::initSDL(int width, int height) {
     this->mWindow = SDL_CreateWindow("XPlayer", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
                                      mWidth, mHeight, SDL_WINDOW_ALLOW_HIGHDPI);
     if (this->mWindow == NULL) {
-        XLog("SDL_CreateWindow", "failed");
+        XLog("SDL_CreateWindow", SDL_GetError());
         videoMutex.unlock();
         return;
     }

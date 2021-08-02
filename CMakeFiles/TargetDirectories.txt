@@ -1,0 +1,3 @@
+/Users/heli/CLionProjects/XPlay/CMakeFiles/XPlay.dir
+/Users/heli/CLionProjects/XPlay/CMakeFiles/ALL_BUILD.dir
+/Users/heli/CLionProjects/XPlay/CMakeFiles/ZERO_CHECK.dir

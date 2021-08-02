@@ -1,0 +1,950 @@
+The system is: Darwin - 19.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+warning: ONLY_ACTIVE_ARCH=YES requested with multiple ARCHS and no run destination to provide an active architecture; building for all applicable architectures (in target 'CompilerIdC' from project 'CompilerIdC')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+CreateBuildDirectory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    builtin-create-build-directory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/Binary/CompilerIdC normal x86_64 (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/Binary/CompilerIdC
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/Binary/CompilerIdC normal arm64 (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/Binary/CompilerIdC
+
+CreateUniversalBinary /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC normal arm64\ x86_64 (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/Binary/CompilerIdC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/Binary/CompilerIdC -output /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /bin/sh -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64 x86_64
+
+RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    builtin-RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+warning: ONLY_ACTIVE_ARCH=YES requested with multiple ARCHS and no run destination to provide an active architecture; building for all applicable architectures (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+CreateBuildDirectory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    builtin-create-build-directory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX normal arm64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX normal x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX
+
+CreateUniversalBinary /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX normal arm64\ x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX -output /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /bin/sh -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64 x86_64
+
+RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    builtin-RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+warning: ONLY_ACTIVE_ARCH=YES requested with multiple ARCHS and no run destination to provide an active architecture; building for all applicable architectures (in target 'CompilerIdC' from project 'CompilerIdC')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+CreateBuildDirectory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    builtin-create-build-directory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/Binary/CompilerIdC normal x86_64 (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/Binary/CompilerIdC
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/Binary/CompilerIdC normal arm64 (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/Binary/CompilerIdC
+
+CreateUniversalBinary /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC normal arm64\ x86_64 (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/Binary/CompilerIdC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/Binary/CompilerIdC -output /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /bin/sh -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64 x86_64
+
+RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    builtin-RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+warning: ONLY_ACTIVE_ARCH=YES requested with multiple ARCHS and no run destination to provide an active architecture; building for all applicable architectures (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+CreateBuildDirectory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    builtin-create-build-directory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX normal x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX normal arm64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX
+
+CreateUniversalBinary /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX normal arm64\ x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX -output /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /bin/sh -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64 x86_64
+
+RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    builtin-RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+warning: ONLY_ACTIVE_ARCH=YES requested with multiple ARCHS and no run destination to provide an active architecture; building for all applicable architectures (in target 'CompilerIdC' from project 'CompilerIdC')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+CreateBuildDirectory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    builtin-create-build-directory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/Binary/CompilerIdC normal x86_64 (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/Binary/CompilerIdC
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/Binary/CompilerIdC normal arm64 (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/Binary/CompilerIdC
+
+CreateUniversalBinary /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC normal arm64\ x86_64 (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/Binary/CompilerIdC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/Binary/CompilerIdC -output /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    /bin/sh -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64 x86_64
+
+RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC
+    builtin-RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+warning: ONLY_ACTIVE_ARCH=YES requested with multiple ARCHS and no run destination to provide an active architecture; building for all applicable architectures (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+CreateBuildDirectory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    builtin-create-build-directory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX normal x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX normal arm64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX
+
+CreateUniversalBinary /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX normal arm64\ x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX -output /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /bin/sh -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64 x86_64
+
+RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    builtin-RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+warning: ONLY_ACTIVE_ARCH=YES requested with multiple ARCHS and no run destination to provide an active architecture; building for all applicable architectures (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+CreateBuildDirectory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    builtin-create-build-directory /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+
+CompileC /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos10.15 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX normal x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX
+
+Ld /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX normal arm64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -F/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX
+
+CreateUniversalBinary /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX normal arm64\ x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX -output /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    /bin/sh -c /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64 x86_64
+
+RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX
+    builtin-RegisterExecutionPolicyException /Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/heli/CLionProjects/XPlay/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d55d3 -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d55d3 -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: The Legacy Build System will be removed in a future release. You can configure the selected build system and this deprecation message in File > Project Settings.
+=== BUILD TARGET cmTC_d55d3 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/Objects-normal/arm64
+write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/Objects-normal/arm64/cmTC_d55d3.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/Objects-normal/arm64/testCXXCompiler.o testCXXCompiler.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/DerivedSources-normal/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/DerivedSources/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/Objects-normal/arm64/testCXXCompiler.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/Objects-normal/arm64/testCXXCompiler.dia -c /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/Objects-normal/arm64/testCXXCompiler.o
+
+Ld Debug/cmTC_d55d3 normal arm64
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -F/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/Objects-normal/arm64/cmTC_d55d3.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/Objects-normal/arm64/cmTC_d55d3_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/Objects-normal/arm64/cmTC_d55d3_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_d55d3
+
+ProcessProductPackaging "" CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/cmTC_d55d3.xcent
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp
+    
+
+Entitlements:
+
+{
+    "com.apple.security.get-task-allow" = 1;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/cmTC_d55d3.xcent
+
+CodeSign Debug/cmTC_d55d3
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d55d3.build/cmTC_d55d3.xcent --timestamp=none /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_d55d3
+/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_d55d3: replacing existing signature
+
+** BUILD SUCCEEDED **
+
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_69c8a -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_69c8a -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: The Legacy Build System will be removed in a future release. You can configure the selected build system and this deprecation message in File > Project Settings.
+=== BUILD TARGET cmTC_69c8a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64
+write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.17.0_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources-normal/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.17.0_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.o
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: arm64-apple-macos10.15
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=non-leaf -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu vortex -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -D "CMAKE_INTDIR=\"Debug\"" -I /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/include -I /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources-normal/arm64 -I /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources/arm64 -I /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /usr/local/Cellar/cmake/3.17.0_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0
+ignoring nonexistent directory "/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/include"
+ignoring nonexistent directory "/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources-normal/arm64"
+ignoring nonexistent directory "/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources/arm64"
+ignoring nonexistent directory "/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources"
+ignoring nonexistent directory "/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+
+Ld Debug/cmTC_69c8a normal arm64
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -F/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_69c8a
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: arm64-apple-macos10.15
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_69c8a -L/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a.LinkFileList -object_path_lto /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a -F/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-609.8
+BUILD 15:07:46 Dec 18 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib
+Framework search paths:
+	/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/
+
+ProcessProductPackaging "" CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/cmTC_69c8a.xcent
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp
+    
+
+Entitlements:
+
+{
+    "com.apple.security.get-task-allow" = 1;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/cmTC_69c8a.xcent
+
+CodeSign Debug/cmTC_69c8a
+    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/cmTC_69c8a.xcent --timestamp=none /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_69c8a
+/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_69c8a: replacing existing signature
+
+** BUILD SUCCEEDED **
+
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_69c8a -configuration Debug -hideShellScriptEnvironment && Command line invocation:]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_69c8a -configuration Debug -hideShellScriptEnvironment]
+  ignore line: []
+  ignore line: [User defaults from command line:]
+  ignore line: [    HideShellScriptEnvironment = YES]
+  ignore line: []
+  ignore line: [Prepare build]
+  ignore line: [note: The Legacy Build System will be removed in a future release. You can configure the selected build system and this deprecation message in File > Project Settings.]
+  ignore line: [=== BUILD TARGET cmTC_69c8a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64]
+  ignore line: [write-file /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.17.0_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/include -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources-normal/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources/arm64 -I/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.17.0_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.o]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+  ignore line: [Target: arm64-apple-macos10.15]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=non-leaf -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu vortex -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -D "CMAKE_INTDIR=\"Debug\"" -I /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/include -I /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources-normal/arm64 -I /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources/arm64 -I /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources -F/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /usr/local/Cellar/cmake/3.17.0_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0]
+  ignore line: [ignoring nonexistent directory "/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/include"]
+  ignore line: [ignoring nonexistent directory "/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources-normal/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/DerivedSources"]
+  ignore line: [ignoring nonexistent directory "/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_69c8a normal arm64]
+  ignore line: [    cd /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -F/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_dependency_info.dat -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_69c8a]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+  ignore line: [Target: arm64-apple-macos10.15]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_69c8a -L/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a.LinkFileList -object_path_lto /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a -F/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_69c8a -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a.LinkFileList -object_path_lto /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_69c8a -filelist /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a.LinkFileList -object_path_lto /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.0.0] ==> ignore
+    arg [11.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug/cmTC_69c8a] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_69c8a.build/Objects-normal/arm64/cmTC_69c8a_dependency_info.dat] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  Framework search paths: [;/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug] ==> [/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  collapse framework dir [/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug] ==> [/Users/heli/CLionProjects/XPlay/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+
+

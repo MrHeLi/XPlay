@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		45D4AE4CD433435C8C020F74 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3020B6B75CE34FB781F36EAA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B5C88C87A0CE4287BF2DE76B /* CMake Rules */,
+			);
+			dependencies = (
+				7DE7943BF9914BCA84B589E0 /* PBXTargetDependency */,
+				CF23EFC94A3C45DB946FD019 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		723197616810448BA60CB4F6 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 599A6D6D789847A0BF0B4630 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C81A7AFFED3949FDAE60F9DF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04FC4F9AA9594830B6CD41E2 /* /Users/heli/CLionProjects/XPlay/FFDecode.cpp */ = {isa = PBXBuildFile; fileRef = A54E683A80C942CDAC5CB166 /* /Users/heli/CLionProjects/XPlay/FFDecode.cpp */; };
+		10A48991FB2744428137D386 /* /Users/heli/CLionProjects/XPlay/SDLAudioPlay.h */ = {isa = PBXBuildFile; fileRef = 2EBABEB37C0B44A688E77EFB /* /Users/heli/CLionProjects/XPlay/SDLAudioPlay.h */; };
+		1365C67047254203A903EC88 /* /Users/heli/CLionProjects/XPlay/IPlayerProxy.h */ = {isa = PBXBuildFile; fileRef = C8E4F48436FD4145B04BDB09 /* /Users/heli/CLionProjects/XPlay/IPlayerProxy.h */; };
+		13E64A2B60C9432FA38AADAC /* /Users/heli/CLionProjects/XPlay/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DBC718F7ED59457A917F4579 /* /Users/heli/CLionProjects/XPlay/CMakeLists.txt */; };
+		170EF8C7B91444D6BA2C6F15 /* /Users/heli/CLionProjects/XPlay/IAudioPlay.cpp */ = {isa = PBXBuildFile; fileRef = E4E8262F55BE467293B91AFF /* /Users/heli/CLionProjects/XPlay/IAudioPlay.cpp */; };
+		1B10F55F8F8643A0A783483C /* /Users/heli/CLionProjects/XPlay/FFDemux.cpp */ = {isa = PBXBuildFile; fileRef = 59AA32D4D0F74CF380186758 /* /Users/heli/CLionProjects/XPlay/FFDemux.cpp */; };
+		2868BB12F9454C1883E89936 /* /Users/heli/CLionProjects/XPlay/IDecode.cpp */ = {isa = PBXBuildFile; fileRef = 61A7F70847734E3D92847090 /* /Users/heli/CLionProjects/XPlay/IDecode.cpp */; };
+		28F01118BE874FF0B8F5F26B /* /Users/heli/CLionProjects/XPlay/IVideoView.cpp */ = {isa = PBXBuildFile; fileRef = 5F3F84DDF1744E93B5835346 /* /Users/heli/CLionProjects/XPlay/IVideoView.cpp */; };
+		2978B606D4FB42A1A757106C /* /Users/heli/CLionProjects/XPlay/SDLAudioPlay.cpp */ = {isa = PBXBuildFile; fileRef = 5434B88E281C4ABF836E53F3 /* /Users/heli/CLionProjects/XPlay/SDLAudioPlay.cpp */; };
+		37B52D7A56C84D4EB3007FAD /* /Users/heli/CLionProjects/XPlay/FFPlayerBuilder.cpp */ = {isa = PBXBuildFile; fileRef = E07FB9B64A004436A8957889 /* /Users/heli/CLionProjects/XPlay/FFPlayerBuilder.cpp */; };
+		398BFF7FF58D49A9A5860E7D /* /Users/heli/CLionProjects/XPlay/IDemux.cpp */ = {isa = PBXBuildFile; fileRef = 4B4F4DC85380449084C9030D /* /Users/heli/CLionProjects/XPlay/IDemux.cpp */; };
+		3F4B208E89AB4F5F9FDE2A5B /* /Users/heli/CLionProjects/XPlay/IObserver.h */ = {isa = PBXBuildFile; fileRef = 6A7B03B9B1AA42B090FB0C6A /* /Users/heli/CLionProjects/XPlay/IObserver.h */; };
+		46B72B907E1349EAA0EC2ED5 /* /Users/heli/CLionProjects/XPlay/IResample.h */ = {isa = PBXBuildFile; fileRef = F68D530916944F57A4AA921C /* /Users/heli/CLionProjects/XPlay/IResample.h */; };
+		47ECF2D258864B2AA5AB2ABB /* /Users/heli/CLionProjects/XPlay/IVideoView.h */ = {isa = PBXBuildFile; fileRef = 2EDCC28FA89440BDA3226F5E /* /Users/heli/CLionProjects/XPlay/IVideoView.h */; };
+		4DD6320FF25E4A0B9849279E /* /Users/heli/CLionProjects/XPlay/SDLVideoView.cpp */ = {isa = PBXBuildFile; fileRef = B168E7E291DB42439A7D38EC /* /Users/heli/CLionProjects/XPlay/SDLVideoView.cpp */; };
+		57E5DCFA653F461BA85A834E /* /Users/heli/CLionProjects/XPlay/FFDecode.h */ = {isa = PBXBuildFile; fileRef = 1AAC0C1DF241462CB64E99FC /* /Users/heli/CLionProjects/XPlay/FFDecode.h */; };
+		5A72348E31934725872A5E1E /* /Users/heli/CLionProjects/XPlay/IDemux.h */ = {isa = PBXBuildFile; fileRef = 90F94DA120434138AA671AE1 /* /Users/heli/CLionProjects/XPlay/IDemux.h */; };
+		5D4EC621592D43739F11FBCB /* /Users/heli/CLionProjects/XPlay/XData.cpp */ = {isa = PBXBuildFile; fileRef = 7E95CEBE418D43C6862E38BB /* /Users/heli/CLionProjects/XPlay/XData.cpp */; };
+		699FCEF05B9A4338A29D6FB5 /* /Users/heli/CLionProjects/XPlay/FFPlayerBuilder.h */ = {isa = PBXBuildFile; fileRef = B4311B3C0C8A4D008665A4F9 /* /Users/heli/CLionProjects/XPlay/FFPlayerBuilder.h */; };
+		7E450C1CEB6D43BB91F25A3D /* /Users/heli/CLionProjects/XPlay/FFResample.h */ = {isa = PBXBuildFile; fileRef = 6B6E2E7AC2864AEF9242260C /* /Users/heli/CLionProjects/XPlay/FFResample.h */; };
+		8398BBE2F11849FBB8BE2700 /* /Users/heli/CLionProjects/XPlay/IPlayerBuilder.h */ = {isa = PBXBuildFile; fileRef = 206C6879B8564023B2ED90B1 /* /Users/heli/CLionProjects/XPlay/IPlayerBuilder.h */; };
+		84767AB0E3CB405FAB71E173 /* /Users/heli/CLionProjects/XPlay/IDecode.h */ = {isa = PBXBuildFile; fileRef = 889397F8471D4B7D94E66198 /* /Users/heli/CLionProjects/XPlay/IDecode.h */; };
+		85B861FD04E44FAC98DB42E3 /* /Users/heli/CLionProjects/XPlay/XParameter.h */ = {isa = PBXBuildFile; fileRef = D75B21BBDC5A4AFB8E69EEEC /* /Users/heli/CLionProjects/XPlay/XParameter.h */; };
+		8788888D53814B0CBAE60CEA /* /Users/heli/CLionProjects/XPlay/XLog.h */ = {isa = PBXBuildFile; fileRef = 7369509868294E56A949B447 /* /Users/heli/CLionProjects/XPlay/XLog.h */; };
+		8888BB9FA7C84B3F9BB47986 /* /Users/heli/CLionProjects/XPlay/IObserver.cpp */ = {isa = PBXBuildFile; fileRef = 3B6546A96EFB46BCADF1CDFA /* /Users/heli/CLionProjects/XPlay/IObserver.cpp */; };
+		8FB886DEC8FA4A86813AC989 /* /Users/heli/CLionProjects/XPlay/IPlayer.cpp */ = {isa = PBXBuildFile; fileRef = 8504B7E1126D42D9BFD5622F /* /Users/heli/CLionProjects/XPlay/IPlayer.cpp */; };
+		95A1BC4762E040B4BF6BC520 /* /Users/heli/CLionProjects/XPlay/XLog.cpp */ = {isa = PBXBuildFile; fileRef = A4152BED87854DE1AAE68B0E /* /Users/heli/CLionProjects/XPlay/XLog.cpp */; };
+		95E50198CF7B4D058997C099 /* /Users/heli/CLionProjects/XPlay/SDLVideoView.h */ = {isa = PBXBuildFile; fileRef = 72857D0DB3F240939BC38A57 /* /Users/heli/CLionProjects/XPlay/SDLVideoView.h */; };
+		A9615711EDE44E70A8E45B5F /* /Users/heli/CLionProjects/XPlay/XThread.h */ = {isa = PBXBuildFile; fileRef = 4DE3969E25D84A3D86E15F91 /* /Users/heli/CLionProjects/XPlay/XThread.h */; };
+		AC3490A2303343D4B26BA34F /* /Users/heli/CLionProjects/XPlay/IResample.cpp */ = {isa = PBXBuildFile; fileRef = 6AB2CD0B7295414C91068812 /* /Users/heli/CLionProjects/XPlay/IResample.cpp */; };
+		AC8AB5036CF54F40962DCA7C /* /Users/heli/CLionProjects/XPlay/XData.h */ = {isa = PBXBuildFile; fileRef = BC0324CEDEB7456EA7D9485E /* /Users/heli/CLionProjects/XPlay/XData.h */; };
+		B03E7B0D04E0478598057BBD /* /Users/heli/CLionProjects/XPlay/IPlayerBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 2BF846E022834B64B622535E /* /Users/heli/CLionProjects/XPlay/IPlayerBuilder.cpp */; };
+		CD9646500223401BB974B677 /* /Users/heli/CLionProjects/XPlay/IAudioPlay.h */ = {isa = PBXBuildFile; fileRef = C46C3BF4BF3E4A8C8DF63B3D /* /Users/heli/CLionProjects/XPlay/IAudioPlay.h */; };
+		D5AAC69DC74142D4AA149766 /* /Users/heli/CLionProjects/XPlay/XThread.cpp */ = {isa = PBXBuildFile; fileRef = 1C0F59CB5DCD43688D332B50 /* /Users/heli/CLionProjects/XPlay/XThread.cpp */; };
+		DACAA64C038C4AA0A5C3F82D /* /Users/heli/CLionProjects/XPlay/IPlayer.h */ = {isa = PBXBuildFile; fileRef = 58ADD6185FD94F8EAE17F20F /* /Users/heli/CLionProjects/XPlay/IPlayer.h */; };
+		E2E428699A83467D825266C0 /* /Users/heli/CLionProjects/XPlay/IPlayerProxy.cpp */ = {isa = PBXBuildFile; fileRef = F0211349944A4F4CA3F20D61 /* /Users/heli/CLionProjects/XPlay/IPlayerProxy.cpp */; };
+		E66A428994904F34BE9D434B /* /Users/heli/CLionProjects/XPlay/FFResample.cpp */ = {isa = PBXBuildFile; fileRef = 82B28B9811BF4316B2C17A45 /* /Users/heli/CLionProjects/XPlay/FFResample.cpp */; };
+		EBD3CCCB0E004F578153AA92 /* /Users/heli/CLionProjects/XPlay/FFDemux.h */ = {isa = PBXBuildFile; fileRef = 45D5C40454D94C5A817C86EA /* /Users/heli/CLionProjects/XPlay/FFDemux.h */; };
+		EC74A4CC472341DBA52E8AF0 /* /Users/heli/CLionProjects/XPlay/main.cpp */ = {isa = PBXBuildFile; fileRef = 78AB09AEED3D4247A314CE16 /* /Users/heli/CLionProjects/XPlay/main.cpp */; };
+		EE74080B012F459597E309E8 /* /Users/heli/CLionProjects/XPlay/XParameter.cpp */ = {isa = PBXBuildFile; fileRef = 1EFA519DFF3D41078BBE4181 /* /Users/heli/CLionProjects/XPlay/XParameter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2769EED6D7C44583B14D8A85 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		49B490F5BF45429A80994B15 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A92E3597CA414156B30F96D6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E8AEF20048B347BE89BC3D50 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2D5F2BAB035542F2B81AC837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4698DEB44AD94F9B8DAAE685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAF753AE5B5499AAE83294C;
+			remoteInfo = XPlay;
+		};
+		8DBAF3DEABF04E9C93654017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4698DEB44AD94F9B8DAAE685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723197616810448BA60CB4F6;
+			remoteInfo = ZERO_CHECK;
+		};
+		E34358047B964A898DEC74D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4698DEB44AD94F9B8DAAE685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723197616810448BA60CB4F6;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AAC0C1DF241462CB64E99FC /* /Users/heli/CLionProjects/XPlay/FFDecode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FFDecode.h; path = FFDecode.h; sourceTree = SOURCE_ROOT; };
+		1C0F59CB5DCD43688D332B50 /* /Users/heli/CLionProjects/XPlay/XThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XThread.cpp; path = XThread.cpp; sourceTree = SOURCE_ROOT; };
+		1EFA519DFF3D41078BBE4181 /* /Users/heli/CLionProjects/XPlay/XParameter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XParameter.cpp; path = XParameter.cpp; sourceTree = SOURCE_ROOT; };
+		206C6879B8564023B2ED90B1 /* /Users/heli/CLionProjects/XPlay/IPlayerBuilder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IPlayerBuilder.h; path = IPlayerBuilder.h; sourceTree = SOURCE_ROOT; };
+		2BF846E022834B64B622535E /* /Users/heli/CLionProjects/XPlay/IPlayerBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IPlayerBuilder.cpp; path = IPlayerBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		2EBABEB37C0B44A688E77EFB /* /Users/heli/CLionProjects/XPlay/SDLAudioPlay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SDLAudioPlay.h; path = SDLAudioPlay.h; sourceTree = SOURCE_ROOT; };
+		2EDCC28FA89440BDA3226F5E /* /Users/heli/CLionProjects/XPlay/IVideoView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IVideoView.h; path = IVideoView.h; sourceTree = SOURCE_ROOT; };
+		3B6546A96EFB46BCADF1CDFA /* /Users/heli/CLionProjects/XPlay/IObserver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IObserver.cpp; path = IObserver.cpp; sourceTree = SOURCE_ROOT; };
+		45D5C40454D94C5A817C86EA /* /Users/heli/CLionProjects/XPlay/FFDemux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FFDemux.h; path = FFDemux.h; sourceTree = SOURCE_ROOT; };
+		4B4F4DC85380449084C9030D /* /Users/heli/CLionProjects/XPlay/IDemux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IDemux.cpp; path = IDemux.cpp; sourceTree = SOURCE_ROOT; };
+		4DE3969E25D84A3D86E15F91 /* /Users/heli/CLionProjects/XPlay/XThread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XThread.h; path = XThread.h; sourceTree = SOURCE_ROOT; };
+		5434B88E281C4ABF836E53F3 /* /Users/heli/CLionProjects/XPlay/SDLAudioPlay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SDLAudioPlay.cpp; path = SDLAudioPlay.cpp; sourceTree = SOURCE_ROOT; };
+		58ADD6185FD94F8EAE17F20F /* /Users/heli/CLionProjects/XPlay/IPlayer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IPlayer.h; path = IPlayer.h; sourceTree = SOURCE_ROOT; };
+		59AA32D4D0F74CF380186758 /* /Users/heli/CLionProjects/XPlay/FFDemux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FFDemux.cpp; path = FFDemux.cpp; sourceTree = SOURCE_ROOT; };
+		5F3F84DDF1744E93B5835346 /* /Users/heli/CLionProjects/XPlay/IVideoView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IVideoView.cpp; path = IVideoView.cpp; sourceTree = SOURCE_ROOT; };
+		61A7F70847734E3D92847090 /* /Users/heli/CLionProjects/XPlay/IDecode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IDecode.cpp; path = IDecode.cpp; sourceTree = SOURCE_ROOT; };
+		6A7B03B9B1AA42B090FB0C6A /* /Users/heli/CLionProjects/XPlay/IObserver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IObserver.h; path = IObserver.h; sourceTree = SOURCE_ROOT; };
+		6AB2CD0B7295414C91068812 /* /Users/heli/CLionProjects/XPlay/IResample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IResample.cpp; path = IResample.cpp; sourceTree = SOURCE_ROOT; };
+		6B6E2E7AC2864AEF9242260C /* /Users/heli/CLionProjects/XPlay/FFResample.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FFResample.h; path = FFResample.h; sourceTree = SOURCE_ROOT; };
+		72857D0DB3F240939BC38A57 /* /Users/heli/CLionProjects/XPlay/SDLVideoView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SDLVideoView.h; path = SDLVideoView.h; sourceTree = SOURCE_ROOT; };
+		7369509868294E56A949B447 /* /Users/heli/CLionProjects/XPlay/XLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XLog.h; path = XLog.h; sourceTree = SOURCE_ROOT; };
+		78AB09AEED3D4247A314CE16 /* /Users/heli/CLionProjects/XPlay/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		7E95CEBE418D43C6862E38BB /* /Users/heli/CLionProjects/XPlay/XData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XData.cpp; path = XData.cpp; sourceTree = SOURCE_ROOT; };
+		82B28B9811BF4316B2C17A45 /* /Users/heli/CLionProjects/XPlay/FFResample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FFResample.cpp; path = FFResample.cpp; sourceTree = SOURCE_ROOT; };
+		839D8B5800D34D17A56CDCAE /* XPlay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = XPlay; sourceTree = BUILT_PRODUCTS_DIR; };
+		8504B7E1126D42D9BFD5622F /* /Users/heli/CLionProjects/XPlay/IPlayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IPlayer.cpp; path = IPlayer.cpp; sourceTree = SOURCE_ROOT; };
+		889397F8471D4B7D94E66198 /* /Users/heli/CLionProjects/XPlay/IDecode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IDecode.h; path = IDecode.h; sourceTree = SOURCE_ROOT; };
+		90F94DA120434138AA671AE1 /* /Users/heli/CLionProjects/XPlay/IDemux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IDemux.h; path = IDemux.h; sourceTree = SOURCE_ROOT; };
+		A4152BED87854DE1AAE68B0E /* /Users/heli/CLionProjects/XPlay/XLog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XLog.cpp; path = XLog.cpp; sourceTree = SOURCE_ROOT; };
+		A54E683A80C942CDAC5CB166 /* /Users/heli/CLionProjects/XPlay/FFDecode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FFDecode.cpp; path = FFDecode.cpp; sourceTree = SOURCE_ROOT; };
+		A6DF69BF2EFE431BA382CFD3 /* /Users/heli/CLionProjects/XPlay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B168E7E291DB42439A7D38EC /* /Users/heli/CLionProjects/XPlay/SDLVideoView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SDLVideoView.cpp; path = SDLVideoView.cpp; sourceTree = SOURCE_ROOT; };
+		B4311B3C0C8A4D008665A4F9 /* /Users/heli/CLionProjects/XPlay/FFPlayerBuilder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FFPlayerBuilder.h; path = FFPlayerBuilder.h; sourceTree = SOURCE_ROOT; };
+		BC0324CEDEB7456EA7D9485E /* /Users/heli/CLionProjects/XPlay/XData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XData.h; path = XData.h; sourceTree = SOURCE_ROOT; };
+		C46C3BF4BF3E4A8C8DF63B3D /* /Users/heli/CLionProjects/XPlay/IAudioPlay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IAudioPlay.h; path = IAudioPlay.h; sourceTree = SOURCE_ROOT; };
+		C8E4F48436FD4145B04BDB09 /* /Users/heli/CLionProjects/XPlay/IPlayerProxy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IPlayerProxy.h; path = IPlayerProxy.h; sourceTree = SOURCE_ROOT; };
+		D75B21BBDC5A4AFB8E69EEEC /* /Users/heli/CLionProjects/XPlay/XParameter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XParameter.h; path = XParameter.h; sourceTree = SOURCE_ROOT; };
+		DBC718F7ED59457A917F4579 /* /Users/heli/CLionProjects/XPlay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E07FB9B64A004436A8957889 /* /Users/heli/CLionProjects/XPlay/FFPlayerBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FFPlayerBuilder.cpp; path = FFPlayerBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		E4E8262F55BE467293B91AFF /* /Users/heli/CLionProjects/XPlay/IAudioPlay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IAudioPlay.cpp; path = IAudioPlay.cpp; sourceTree = SOURCE_ROOT; };
+		F0211349944A4F4CA3F20D61 /* /Users/heli/CLionProjects/XPlay/IPlayerProxy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IPlayerProxy.cpp; path = IPlayerProxy.cpp; sourceTree = SOURCE_ROOT; };
+		F68D530916944F57A4AA921C /* /Users/heli/CLionProjects/XPlay/IResample.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IResample.h; path = IResample.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		26B64E028A394769A753E037 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E688304E66484899AA18A8ED /* CMake Rules */,
+				A6DF69BF2EFE431BA382CFD3 /* /Users/heli/CLionProjects/XPlay/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		35A8DADCAFBE4E14BEDCD9D4 /* XPlay */ = {
+			isa = PBXGroup;
+			children = (
+				528E1A354ABB48D4B73FE31A /* Source Files */,
+				6F470C083AED4011A24CB067 /* Header Files */,
+				DBC718F7ED59457A917F4579 /* /Users/heli/CLionProjects/XPlay/CMakeLists.txt */,
+			);
+			name = XPlay;
+			sourceTree = "<group>";
+		};
+		528E1A354ABB48D4B73FE31A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A54E683A80C942CDAC5CB166 /* /Users/heli/CLionProjects/XPlay/FFDecode.cpp */,
+				59AA32D4D0F74CF380186758 /* /Users/heli/CLionProjects/XPlay/FFDemux.cpp */,
+				E07FB9B64A004436A8957889 /* /Users/heli/CLionProjects/XPlay/FFPlayerBuilder.cpp */,
+				82B28B9811BF4316B2C17A45 /* /Users/heli/CLionProjects/XPlay/FFResample.cpp */,
+				E4E8262F55BE467293B91AFF /* /Users/heli/CLionProjects/XPlay/IAudioPlay.cpp */,
+				61A7F70847734E3D92847090 /* /Users/heli/CLionProjects/XPlay/IDecode.cpp */,
+				4B4F4DC85380449084C9030D /* /Users/heli/CLionProjects/XPlay/IDemux.cpp */,
+				3B6546A96EFB46BCADF1CDFA /* /Users/heli/CLionProjects/XPlay/IObserver.cpp */,
+				8504B7E1126D42D9BFD5622F /* /Users/heli/CLionProjects/XPlay/IPlayer.cpp */,
+				2BF846E022834B64B622535E /* /Users/heli/CLionProjects/XPlay/IPlayerBuilder.cpp */,
+				F0211349944A4F4CA3F20D61 /* /Users/heli/CLionProjects/XPlay/IPlayerProxy.cpp */,
+				6AB2CD0B7295414C91068812 /* /Users/heli/CLionProjects/XPlay/IResample.cpp */,
+				5F3F84DDF1744E93B5835346 /* /Users/heli/CLionProjects/XPlay/IVideoView.cpp */,
+				5434B88E281C4ABF836E53F3 /* /Users/heli/CLionProjects/XPlay/SDLAudioPlay.cpp */,
+				B168E7E291DB42439A7D38EC /* /Users/heli/CLionProjects/XPlay/SDLVideoView.cpp */,
+				7E95CEBE418D43C6862E38BB /* /Users/heli/CLionProjects/XPlay/XData.cpp */,
+				A4152BED87854DE1AAE68B0E /* /Users/heli/CLionProjects/XPlay/XLog.cpp */,
+				1EFA519DFF3D41078BBE4181 /* /Users/heli/CLionProjects/XPlay/XParameter.cpp */,
+				1C0F59CB5DCD43688D332B50 /* /Users/heli/CLionProjects/XPlay/XThread.cpp */,
+				78AB09AEED3D4247A314CE16 /* /Users/heli/CLionProjects/XPlay/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6F470C083AED4011A24CB067 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC0C1DF241462CB64E99FC /* /Users/heli/CLionProjects/XPlay/FFDecode.h */,
+				45D5C40454D94C5A817C86EA /* /Users/heli/CLionProjects/XPlay/FFDemux.h */,
+				B4311B3C0C8A4D008665A4F9 /* /Users/heli/CLionProjects/XPlay/FFPlayerBuilder.h */,
+				6B6E2E7AC2864AEF9242260C /* /Users/heli/CLionProjects/XPlay/FFResample.h */,
+				C46C3BF4BF3E4A8C8DF63B3D /* /Users/heli/CLionProjects/XPlay/IAudioPlay.h */,
+				889397F8471D4B7D94E66198 /* /Users/heli/CLionProjects/XPlay/IDecode.h */,
+				90F94DA120434138AA671AE1 /* /Users/heli/CLionProjects/XPlay/IDemux.h */,
+				6A7B03B9B1AA42B090FB0C6A /* /Users/heli/CLionProjects/XPlay/IObserver.h */,
+				58ADD6185FD94F8EAE17F20F /* /Users/heli/CLionProjects/XPlay/IPlayer.h */,
+				206C6879B8564023B2ED90B1 /* /Users/heli/CLionProjects/XPlay/IPlayerBuilder.h */,
+				C8E4F48436FD4145B04BDB09 /* /Users/heli/CLionProjects/XPlay/IPlayerProxy.h */,
+				F68D530916944F57A4AA921C /* /Users/heli/CLionProjects/XPlay/IResample.h */,
+				2EDCC28FA89440BDA3226F5E /* /Users/heli/CLionProjects/XPlay/IVideoView.h */,
+				2EBABEB37C0B44A688E77EFB /* /Users/heli/CLionProjects/XPlay/SDLAudioPlay.h */,
+				72857D0DB3F240939BC38A57 /* /Users/heli/CLionProjects/XPlay/SDLVideoView.h */,
+				BC0324CEDEB7456EA7D9485E /* /Users/heli/CLionProjects/XPlay/XData.h */,
+				7369509868294E56A949B447 /* /Users/heli/CLionProjects/XPlay/XLog.h */,
+				D75B21BBDC5A4AFB8E69EEEC /* /Users/heli/CLionProjects/XPlay/XParameter.h */,
+				4DE3969E25D84A3D86E15F91 /* /Users/heli/CLionProjects/XPlay/XThread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AFA401AC074B420D91A89C32 = {
+			isa = PBXGroup;
+			children = (
+				35A8DADCAFBE4E14BEDCD9D4 /* XPlay */,
+				26B64E028A394769A753E037 /* ALL_BUILD */,
+				D2E2F49A4187412FBED90418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E2F49A4187412FBED90418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839D8B5800D34D17A56CDCAE /* XPlay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E688304E66484899AA18A8ED /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFAF753AE5B5499AAE83294C /* XPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4480ED92E974E2988AC05AC /* Build configuration list for PBXNativeTarget "XPlay" */;
+			buildPhases = (
+				D3306FF49D5F49509993F667 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65310FC0A694405A22EA738 /* PBXTargetDependency */,
+			);
+			name = XPlay;
+			productName = XPlay;
+			productReference = 839D8B5800D34D17A56CDCAE /* XPlay */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4698DEB44AD94F9B8DAAE685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 7614D7A4905B42C39CFA2833 /* Build configuration list for PBXProject "XPlay" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2769EED6D7C44583B14D8A85 /* Debug */,
+				49B490F5BF45429A80994B15 /* Release */,
+				E8AEF20048B347BE89BC3D50 /* MinSizeRel */,
+				A92E3597CA414156B30F96D6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = AFA401AC074B420D91A89C32;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				45D4AE4CD433435C8C020F74 /* ALL_BUILD */,
+				CFAF753AE5B5499AAE83294C /* XPlay */,
+				723197616810448BA60CB4F6 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		439723D2979D459B89759E1E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9720C428AB31424DB536F4DC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B5C88C87A0CE4287BF2DE76B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/heli/CLionProjects/XPlay -f /Users/heli/CLionProjects/XPlay/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C81A7AFFED3949FDAE60F9DF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/heli/CLionProjects/XPlay -f /Users/heli/CLionProjects/XPlay/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3306FF49D5F49509993F667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC4F9AA9594830B6CD41E2 /* /Users/heli/CLionProjects/XPlay/FFDecode.cpp */,
+				1B10F55F8F8643A0A783483C /* /Users/heli/CLionProjects/XPlay/FFDemux.cpp */,
+				37B52D7A56C84D4EB3007FAD /* /Users/heli/CLionProjects/XPlay/FFPlayerBuilder.cpp */,
+				E66A428994904F34BE9D434B /* /Users/heli/CLionProjects/XPlay/FFResample.cpp */,
+				170EF8C7B91444D6BA2C6F15 /* /Users/heli/CLionProjects/XPlay/IAudioPlay.cpp */,
+				2868BB12F9454C1883E89936 /* /Users/heli/CLionProjects/XPlay/IDecode.cpp */,
+				398BFF7FF58D49A9A5860E7D /* /Users/heli/CLionProjects/XPlay/IDemux.cpp */,
+				8888BB9FA7C84B3F9BB47986 /* /Users/heli/CLionProjects/XPlay/IObserver.cpp */,
+				8FB886DEC8FA4A86813AC989 /* /Users/heli/CLionProjects/XPlay/IPlayer.cpp */,
+				B03E7B0D04E0478598057BBD /* /Users/heli/CLionProjects/XPlay/IPlayerBuilder.cpp */,
+				E2E428699A83467D825266C0 /* /Users/heli/CLionProjects/XPlay/IPlayerProxy.cpp */,
+				AC3490A2303343D4B26BA34F /* /Users/heli/CLionProjects/XPlay/IResample.cpp */,
+				28F01118BE874FF0B8F5F26B /* /Users/heli/CLionProjects/XPlay/IVideoView.cpp */,
+				2978B606D4FB42A1A757106C /* /Users/heli/CLionProjects/XPlay/SDLAudioPlay.cpp */,
+				4DD6320FF25E4A0B9849279E /* /Users/heli/CLionProjects/XPlay/SDLVideoView.cpp */,
+				5D4EC621592D43739F11FBCB /* /Users/heli/CLionProjects/XPlay/XData.cpp */,
+				95A1BC4762E040B4BF6BC520 /* /Users/heli/CLionProjects/XPlay/XLog.cpp */,
+				EE74080B012F459597E309E8 /* /Users/heli/CLionProjects/XPlay/XParameter.cpp */,
+				D5AAC69DC74142D4AA149766 /* /Users/heli/CLionProjects/XPlay/XThread.cpp */,
+				EC74A4CC472341DBA52E8AF0 /* /Users/heli/CLionProjects/XPlay/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DE7943BF9914BCA84B589E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723197616810448BA60CB4F6 /* ZERO_CHECK */;
+			targetProxy = 8DBAF3DEABF04E9C93654017 /* PBXContainerItemProxy */;
+		};
+		A65310FC0A694405A22EA738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723197616810448BA60CB4F6 /* ZERO_CHECK */;
+			targetProxy = E34358047B964A898DEC74D2 /* PBXContainerItemProxy */;
+		};
+		CF23EFC94A3C45DB946FD019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAF753AE5B5499AAE83294C /* XPlay */;
+			targetProxy = 2D5F2BAB035542F2B81AC837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		092A077B2DB447A5B5F76884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1626815EACEA4AE8B783208B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/ffmpeg/4.2.2_2/include,/usr/local/Cellar/sdl2/2.0.12_1/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/ffmpeg/4.2.2_2/lib /usr/local/Cellar/sdl2/2.0.12_1/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/ffmpeg/4.2.2_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/ffmpeg/4.2.2_2/lib /usr/local/Cellar/sdl2/2.0.12_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/sdl2/2.0.12_1/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lavcodec -lavdevice -lavfilter -lavformat -lswresample -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XPlay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2F2EC2B5E9274EB4873C8A4A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2F499687C2C34696A0772832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/ffmpeg/4.2.2_2/include,/usr/local/Cellar/sdl2/2.0.12_1/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/ffmpeg/4.2.2_2/lib /usr/local/Cellar/sdl2/2.0.12_1/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/ffmpeg/4.2.2_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/ffmpeg/4.2.2_2/lib /usr/local/Cellar/sdl2/2.0.12_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/sdl2/2.0.12_1/lib";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lavcodec -lavdevice -lavfilter -lavformat -lswresample -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XPlay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4E690320A0C64444A805D89F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/heli/CLionProjects/XPlay/build;
+			};
+			name = RelWithDebInfo;
+		};
+		59CF42B3A4B74FF596B13020 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		872FE511A6DB49FBBC807268 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/ffmpeg/4.2.2_2/include,/usr/local/Cellar/sdl2/2.0.12_1/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/ffmpeg/4.2.2_2/lib /usr/local/Cellar/sdl2/2.0.12_1/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/ffmpeg/4.2.2_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/ffmpeg/4.2.2_2/lib /usr/local/Cellar/sdl2/2.0.12_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/sdl2/2.0.12_1/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lavcodec -lavdevice -lavfilter -lavformat -lswresample -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XPlay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8D69A46E9C86481C9F6E879E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A341F877D7DD40B6AC0AD4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B8D3B5734C644D89AB7837FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BBE336F8B8CB4B3BBF6A3BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/heli/CLionProjects/XPlay/build;
+			};
+			name = Debug;
+		};
+		BE4595AA18F54020BB8E2D28 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C906C321BB0C4A30AD648E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/heli/CLionProjects/XPlay/build;
+			};
+			name = Release;
+		};
+		E9713CE64640487D84EBC2A4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/ffmpeg/4.2.2_2/include,/usr/local/Cellar/sdl2/2.0.12_1/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/ffmpeg/4.2.2_2/lib /usr/local/Cellar/sdl2/2.0.12_1/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/ffmpeg/4.2.2_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/ffmpeg/4.2.2_2/lib /usr/local/Cellar/sdl2/2.0.12_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/sdl2/2.0.12_1/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lavcodec -lavdevice -lavfilter -lavformat -lswresample -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XPlay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ED39A00302A64B01851746B3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/heli/CLionProjects/XPlay/build;
+			};
+			name = MinSizeRel;
+		};
+		FC1B0390488C4B45B4EEE516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/heli/CLionProjects/XPlay;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3020B6B75CE34FB781F36EAA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A341F877D7DD40B6AC0AD4E5 /* Debug */,
+				B8D3B5734C644D89AB7837FF /* Release */,
+				8D69A46E9C86481C9F6E879E /* MinSizeRel */,
+				59CF42B3A4B74FF596B13020 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		599A6D6D789847A0BF0B4630 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092A077B2DB447A5B5F76884 /* Debug */,
+				FC1B0390488C4B45B4EEE516 /* Release */,
+				2F2EC2B5E9274EB4873C8A4A /* MinSizeRel */,
+				BE4595AA18F54020BB8E2D28 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7614D7A4905B42C39CFA2833 /* Build configuration list for PBXProject "XPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE336F8B8CB4B3BBF6A3BC3 /* Debug */,
+				C906C321BB0C4A30AD648E4D /* Release */,
+				ED39A00302A64B01851746B3 /* MinSizeRel */,
+				4E690320A0C64444A805D89F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4480ED92E974E2988AC05AC /* Build configuration list for PBXNativeTarget "XPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F499687C2C34696A0772832 /* Debug */,
+				1626815EACEA4AE8B783208B /* Release */,
+				E9713CE64640487D84EBC2A4 /* MinSizeRel */,
+				872FE511A6DB49FBBC807268 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4698DEB44AD94F9B8DAAE685 /* Project object */;
+}
